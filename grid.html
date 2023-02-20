@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+            grid-gap: 10px;
+            grid-auto-rows: 100px;
+        }
+        .items{
+            background-color: lightcoral;
+            border: 3px green solid ;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items">dabba 1</div>
+        <div class="items">dabba 2</div>
+        <div class="items">dabba 3</div>
+        <div class="items">dabba 4</div>
+        <div class="items">dabba 5</div>
+    </div>
+</body>
+</html>
