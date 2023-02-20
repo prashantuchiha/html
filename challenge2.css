@@ -1,0 +1,27 @@
+body{
+    align-items: center;
+    text-align: center;
+}
+.first{
+    display: flex;
+    flex-wrap: wrap;
+}
+.div{
+    width: 25%;
+    
+    text-align: center;
+    height: 100px;
+    background-color: cornsilk;
+}
+@media screen and (max-width:400px){
+    .div{
+        background-color: aquamarine;
+        width:100%;
+    }
+}
+@media screen and (max-width:800px) and (min-width:401px){
+    .div{
+        background-color: chartreuse;
+        width:50%;
+    }
+}
