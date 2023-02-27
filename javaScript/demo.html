@@ -22,13 +22,14 @@
     </style>
 </head>
 <body>
-    <button>fuck you</button>
+    <button>fuck : Who</button>
     <script>
         let fuckbtn=document.querySelector('button');
-        fuckbtn.addEventListener('click',showMsg );
+        fuckbtn.addEventListener('click',inputMsg );
 
-        function showMsg(){
-            alert("Fuck Jai");
+        function inputMsg(){
+            let name=prompt('Enter Name to Fuck');
+            fuckbtn.textContent='fuck :'+name;
         }
     </script>
 </body>
